@@ -1,4 +1,3 @@
-import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Home from "@/components/Home";
@@ -11,7 +10,6 @@ export default function Page() {
     <div className="bg-[#040404] text-white">
       <Navbar />
       <Home />
-      <About />
       <Technologyes />
       <Portfolio />
       <Contact />
