@@ -4,7 +4,6 @@ import { Resend } from "resend";
 const resend = new Resend(
   process.env.RESEND_API_KEY || "re_Sk6Ph4qQ_Pt3ebXocWyx1GG4zpooGVGKa"
 );
-
 export async function POST(req: { json: () => any }) {
   const body = await req.json();
   try {
