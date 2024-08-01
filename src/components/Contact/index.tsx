@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const initialFormData = {
@@ -28,8 +29,21 @@ const Contact = () => {
         method: "POST",
         body: JSON.stringify({...formData})
       })
+      Swal.fire({
+        position: "top",
+        icon: "success",
+        title: "Tu solicitud de contacto ha sido exitosa.",
+        showConfirmButton: true,
+        timer: 5000,
+      });
     } catch (error) {
-      
+      Swal.fire({
+        position: "top",
+        icon: "error",
+        title: "Tu solicitud de contacto no se ha podido enviar",
+        showConfirmButton: true,
+        timer: 5000,
+      });
     }
   }
 
