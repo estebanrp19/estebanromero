@@ -2,7 +2,7 @@ import { EmailTemplate } from "@/components/EmailTemplate";
 import { Resend } from "resend";
 
 const resend = new Resend(
-  "re_Sk6Ph4qQ_Pt3ebXocWyx1GG4zpooGVGKa"
+  process.env.RESEND_API_KEY || "re_Sk6Ph4qQ_Pt3ebXocWyx1GG4zpooGVGKa"
 );
 export async function POST(req: { json: () => any }) {
   const body = await req.json();
