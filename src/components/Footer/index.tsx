@@ -9,24 +9,6 @@ function Footer() {
         </h1>
       </div>
 
-      {/* <div className="text-center p-2">
-        <Link href="#" className="px-10">
-          Inicio
-        </Link>
-        <Link href="#" className="px-10">
-          Acerca de
-        </Link>
-        <Link href="#" className="px-10">
-          Tecnologias
-        </Link>
-        <Link href="#" className="px-10">
-          Servicios
-        </Link>
-        <Link href="#" className="px-10">
-          Contacto
-        </Link>
-      </div> */}
-
       <div className="flex justify-center">
         <a href="https://www.instagram.com/estebanrp_19/">
           <img
@@ -50,6 +32,10 @@ function Footer() {
           />
         </a>
       </div>
+      <div className="text-center">
+        <p className="pb-2 font-extralight text-[12px]">&copy; Copyright 2024 - Hecho por Esteban Romero.</p>
+      </div>
+
     </div>
   );
 }
