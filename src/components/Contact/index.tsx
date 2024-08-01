@@ -25,10 +25,13 @@ const Contact = () => {
     event.preventDefault();
     if(!formData.firstName || !formData.lastName || !formData.email) return
     try {
-      const response = await fetch("estebanromero.vercel.app/api/send", {
-        method: "POST",
-        body: JSON.stringify({...formData})
-      })
+      const response = await fetch(
+        "https://estebanromero.vercel.app//api/send",
+        {
+          method: "POST",
+          body: JSON.stringify({ ...formData }),
+        }
+      );
       Swal.fire({
         position: "top",
         icon: "success",
