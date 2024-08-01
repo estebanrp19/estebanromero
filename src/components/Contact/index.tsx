@@ -99,7 +99,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 md:gap-6">
           <div className="relative z-0 w-full mb-5 group">
             <input
-              type="tel"
+              type="text"
               name="phone"
               value={formData.phone}
               id="floating_phone"
