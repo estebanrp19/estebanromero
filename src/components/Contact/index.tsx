@@ -1,9 +1,9 @@
 function Contact () {
     return (
-      <div className="mt-10">
+      <div className="mt-10 mx-3">
         <h1 className="text-[25px] text-[#0582CA] font-semibold text-center">Contactame</h1>
 
-        <form className="max-w-md mx-auto">
+        <form className="max-w-md mx-auto mt-3">
           <div className="relative z-0 w-full mb-5 group">
             <input
               type="email"

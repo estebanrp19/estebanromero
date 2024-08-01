@@ -1,13 +1,13 @@
 function Portfolio() {
   return (
-    <div className="mt-10 text-center">
+    <div className="mt-10 text-center content-center text-white">
       <h1 className="text-[25px] text-[#0582CA] font-semibold">Portafolio</h1>
 
-      <div className="flex justify-center gap-6 mt-8 mx-10">
-        <div className="rounded w-[300px] h-[300px] border border-2 border-[#051923] bg-[#051923]">
+      <div className="lg:flex lg:justify-center lg:gap-6 mt-8 mx-10 flex flex-wrap justify-center gap-6">
+        <div className="rounded w-[300px] h-[300px] border border-2 border-[#051923] bg-[#051923] mb-4">
           <img
             src="/bestpartdeals.png"
-            alt="Mediturnos"
+            alt="Best Parts Deals"
             className="w-full h-[150px] object-cover rounded mb-3"
           />
           <h2 className="font-medium text-lg">Best Parts Deals</h2>
@@ -31,7 +31,7 @@ function Portfolio() {
             </button>
           </a>
         </div>
-        <div className="rounded w-[300px] h-[300px] border border-2 border-[#051923] bg-[#051923]">
+        <div className="rounded w-[300px] h-[300px] border border-2 border-[#051923] bg-[#051923]  mb-4">
           <img
             src="/mediturnos.png"
             alt="Mediturnos"
@@ -51,7 +51,7 @@ function Portfolio() {
           </a>
         </div>
 
-        <div className="rounded w-[300px] h-[300px] border border-2 border-[#051923] bg-[#051923]">
+        <div className="rounded w-[300px] h-[300px] border border-2 border-[#051923] bg-[#051923]  mb-4">
           <img
             src="/smarthome.png"
             alt="SmartHome"
@@ -70,10 +70,10 @@ function Portfolio() {
             </button>
           </a>
         </div>
-        <div className="rounded w-[300px] h-[300px] border border-2 border-[#051923] bg-[#051923]">
+        <div className="rounded w-[300px] h-[300px] border border-2 border-[#051923] bg-[#051923]  mb-4">
           <img
             src="/rutaviajera.png"
-            alt="SmartHome"
+            alt="Ruta Viajera"
             className="w-full h-[150px] object-cover rounded mb-3"
           />
           <h2 className="font-medium text-lg">Ruta Viajera</h2>

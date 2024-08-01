@@ -1,6 +1,6 @@
 function About () {
     return (
-      <div className="mt-10 text-center text-white">
+      <div className="lg:mt-10 text-center text-white mx-2">
         <h1 className="text-[25px] text-[#0582CA] font-semibold">
           Acerca de Mí
         </h1>
