@@ -84,14 +84,11 @@ function Portfolio() {
             href="https://github.com/JMPatinoFlores/ProyectoFinal.git"
             target="_blank"
           >
-            <button className="p-2 border border-white rounded bg-[#051923] text-white hover:bg-white hover:text-[#0582CA]">
+            <button className="mx-1 p-2 border border-white rounded bg-[#051923] text-white hover:bg-white hover:text-[#0582CA]">
               GitHub
             </button>
           </a>
-          <a
-            href="https://rutaviajera.vercel.app"
-            target="_blank"
-          >
+          <a href="https://rutaviajera.vercel.app" target="_blank">
             <button className="p-2 border border-white rounded bg-[#051923] text-white hover:bg-white hover:text-[#0582CA]">
               Abrir
             </button>
