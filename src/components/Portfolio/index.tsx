@@ -88,6 +88,14 @@ function Portfolio() {
               GitHub
             </button>
           </a>
+          <a
+            href="https://rutaviajera.vercel.app"
+            target="_blank"
+          >
+            <button className="p-2 border border-white rounded bg-[#051923] text-white hover:bg-white hover:text-[#0582CA]">
+              Abrir
+            </button>
+          </a>
         </div>
       </div>
     </div>
