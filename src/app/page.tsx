@@ -6,7 +6,7 @@ import Technologyes from "@/components/Technologyes";
 
 export default function Page() {
   return (
-    <div className="bg-[#040404] text-white">
+    <div className="bg-[#364655] text-white">
       <Home />
       <About />
       <Technologyes />

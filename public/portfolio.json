@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Best Part Deals",
+    "description": "Best Part Deals es una tienda de comercio electrónico especializada en la venta de repuestos para automóviles. Aunque es una empresa estadounidense, tiene su sede en Venezuela, lo que le permite ofrecer una amplia gama de productos de calidad a precios competitivos para el mercado local y regional.",
+    "technologies": ["HTML", "CSS", "Bootstrap"],
+    "image": "/bestpartdeals.png",
+    "github": "https://github.com/estebanrp19/best-parts-deals.git",
+    "page": "http://bpd.dyndns-web.com:8083/app/searchforparts.html"
+  },
+  {
+    "id": "2",
+    "name": "MediTurnos",
+    "description": "MediTurnos fue mi proyecto destacado durante el módulo 3 del Bootcamp de Soy Henry. Es una plataforma integral de gestión de turnos que desarrollé, abarcando tanto el back-end como el front-end, para ofrecer una solución eficiente y completa en la administración de citas.",
+    "technologies": ["React", "CSS", "TypeScript", "Express", "TypeORM", "PostgreSQL"],
+    "image": "/mediturnos.png",
+    "github": "https://github.com/estebanrp19/mediTurnos.git",
+    "page": ""
+  },
+  {
+    "id": "3",
+    "name": "SmartHome",
+    "description": "SmartHome fue mi proyecto destacado durante el módulo 4 del Bootcamp de Soy Henry. Es una tienda en línea especializada en productos de domótica, en la que me enfoqué en desarrollar el front-end, mi especialización en el bootcamp, para ofrecer una experiencia de usuario completa y eficiente.",
+    "technologies": ["NextJS", "Tailwind", "TypeScript", "Express", "TypeORM", "PostgreSQL"],
+    "image": "/smarthome.png",
+    "github": "https://github.com/estebanrp19/smartHome.git",
+    "page": ""
+  },
+  {
+    "id": "4",
+    "name": "Ruta Viajera",
+    "description": "Ruta Viajera fue mi proyecto final en el Bootcamp de Soy Henry, desarrollado en colaboración con un equipo de seis personas. Mi enfoque principal en este proyecto fue el front-end. Ruta Viajera es una plataforma que permite a los usuarios encontrar hoteles en todo el mundo, gestionando tanto perfiles de hoteleros como de usuarios. La página ofrece una amplia gama de funciones para optimizar la experiencia de búsqueda y reserva.",
+     "technologies": ["NextJS", "Tailwind", "TypeScript", "Express", "TypeORM", "PostgreSQL"],
+    "image": "/rutaviajera.png",
+    "github": "https://github.com/JMPatinoFlores/ProyectoFinal.git",
+    "page": "https://rutaviajera.vercel.app"
+  }
+]
