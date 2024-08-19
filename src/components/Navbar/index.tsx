@@ -78,35 +78,35 @@ function Navbar() {
         {isMenuOpen && (
           <div className="mt-3 md:hidden">
             <Link
-              href="#"
+              href="/"
               className="mb-4 flex items-center"
             >
               <Home className="w-4 h-4 mr-1" />
               <span>Inicio</span>
             </Link>
             <Link
-              href="#"
+              href="/aboutme"
               className="mb-4 flex items-center"
             >
               <User className="w-4 h-4 mr-1" />
               <span>Acerca de </span>
             </Link>
             <Link
-              href="#"
+              href="/skills"
               className="mb-4 flex items-center"
             >
               <Code className="w-4 h-4 mr-1" />
               <span>Habilidades</span>
             </Link>
             <Link
-              href="#"
+              href="/portfolio"
               className="mb-4 flex items-center"
             >
               <BriefcaseBusiness className="w-4 h-4 mr-1" />
               <span>Proyectos</span>
             </Link>
             <Link
-              href="#"
+              href="/form-contact"
               className="mb-4 flex items-center"
             >
               <Mail className="w-4 h-4 mr-1" />
