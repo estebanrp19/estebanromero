@@ -16,10 +16,12 @@ function Home() {
           />
         </div>
         <div className="mt-4">
-          <button className="flex items-center space-x-2 px-4 py-2 bg-[#FAA307] text-primary-foreground rounded-md shadow-sm hover:bg-[#F48C06]">
-            <DownloadIcon className="w-5 h-5" aria-hidden="true" />
-            <span>Descargar CV</span>
-          </button>
+          <a href="/CV_Esteban_Romero_2024.pdf" download>
+            <button className="flex items-center space-x-2 px-4 py-2 bg-[#FAA307] text-primary-foreground rounded-md shadow-sm hover:bg-[#F48C06]">
+              <DownloadIcon className="w-5 h-5" aria-hidden="true" />
+              <span>Descargar CV</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
