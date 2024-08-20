@@ -28,7 +28,7 @@ export default function Footer() {
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
-                href="https://w.app/4958608"
+                href="https://wa.me/+573152447623"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-textsecondary hover:text-textprimary transition-colors"
