@@ -1,7 +1,7 @@
 function Certifications() {
   return (
     <div className="mt-10 text-center">
-      <h1 className="text-[25px] text-[#0582CA] font-semibold">Certificados</h1>
+      <h1 className="text-[25px] text-[#A3AEC2] font-semibold">Certificados</h1>
       <div className="flex justify-center">
         <div className="max-w-sm rounded overflow-hidden shadow-lg bg-[#F2F5FC] p- m-4">
           <img
