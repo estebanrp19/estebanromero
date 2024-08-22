@@ -61,8 +61,13 @@ function Portfolio() {
                   </Link>
                   <Link
                     href={project.page}
-                    className="flex items-center px-3 py-2 bg-white text-[#A3AEC2] rounded-lg hover:bg-[#A3AEC2] hover:text-white"
+                    className={`flex items-center px-3 py-2 rounded-lg ${
+                      project.page
+                        ? "bg-white text-[#A3AEC2] hover:bg-[#A3AEC2] hover:text-white"
+                        : "bg-gray-400 text-gray-600 cursor-not-allowed"
+                    }`}
                     target="_blank"
+                    aria-disabled={!project.page}
                   >
                     <ExternalLinkIcon className="w-4 h-4 mr-2" />
                     Demo

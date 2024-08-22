@@ -64,10 +64,15 @@ function ProjectDetil() {
               href={project.page}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center px-3 py-2 bg-white text-[#A3AEC2] rounded-lg hover:bg-[#A3AEC2] hover:text-white"
+              className={`flex items-center px-3 py-2 rounded-lg ${
+                project.page
+                  ? "bg-white text-[#A3AEC2] hover:bg-[#A3AEC2] hover:text-white"
+                  : "bg-gray-400 text-gray-600 cursor-not-allowed"
+              }`}
+              aria-disabled={!project.page}
             >
-              <ExternalLinkIcon className="w-5 h-5" />
-              <span>Live Demo</span>
+              <ExternalLinkIcon className="w-5 h-5 mr-1" />
+              <span>Ver Demo</span>
             </a>
           </div>
         </div>
