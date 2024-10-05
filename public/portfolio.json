@@ -34,5 +34,14 @@
     "image": "/rutaviajera.png",
     "github": "https://github.com/JMPatinoFlores/ProyectoFinal.git",
     "page": "https://rutaviajera.vercel.app"
+  },
+  {
+    "id": "5",
+    "name": "Healthy Code",
+    "description": "Ruta Viajera fue mi proyecto final en el Bootcamp de Soy Henry, desarrollado en colaboración con un equipo de seis personas. Mi enfoque principal en este proyecto fue el front-end. Ruta Viajera es una plataforma que permite a los usuarios encontrar hoteles en todo el mundo, gestionando tanto perfiles de hoteleros como de usuarios. La página ofrece una amplia gama de funciones para optimizar la experiencia de búsqueda y reserva.",
+     "technologies": ["React", "NextJS", "TypeScript", "Tailwind"],
+    "image": "/healthycode.png",
+    "github": "https://github.com/estebanrp19/front-healthycode.git",
+    "page": "https://healthycode-chi.vercel.app"
   }
 ]
